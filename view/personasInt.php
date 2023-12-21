@@ -1,8 +1,8 @@
 <?php
 include('adminNav.php');
-include('../model/usuarioModel.php');
+include('../model/personasModel.php');
 
-$usuario  =  new usuarioModel();
+$usuario  =  new personasModel();
 
 $pacientes = $usuario->index();
 
@@ -27,12 +27,12 @@ $pacientes = $usuario->index();
         <?php foreach($pacientes as $pacientes): ?>
         <tr>
             <th><?= $pacientes[1] ?></th>
+            <th><?= $pacientes[2] ?></th>
             <th><?= $pacientes[3] ?></th>
-            <th><?= $pacientes[4] ?></th>
             
 
             <th>
-                <a href="view/delete.php?id=<?= $pacientes[0]?>" class="btn btn-danger">Eliminar</a>
+                <a href="deletePersonas.php?id=<?= $pacientes[0]?>" class="btn btn-danger">Eliminar</a>
             </th>
         </tr>
         <?php endforeach; ?>

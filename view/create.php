@@ -26,7 +26,9 @@ if(isset($_POST) && !empty($_POST)){
   }
   
   ?>
-<h2>Crear Paciente</h2>
+  <br>
+<h2>Agendar Cliente</h2>
+<br>
 <form method="POST" enctype="multipart/form-data">
   <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label">

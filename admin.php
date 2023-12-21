@@ -10,7 +10,9 @@ $pacientes = $usuario->index();
 ?>
 
 <div class="container-sm">
-<h2>Pacientes</h2>
+  <br>
+<h2>Clientes</h2>
+<br>
 <table class="table">
   <thead>
     <tr>

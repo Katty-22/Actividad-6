@@ -37,13 +37,13 @@
             $stament->bindParam(":telefono",$params['telefono']);
             $stament->bindParam(":Sexo",$params['sexo']);
             $stament->bindParam(":cita",$params['cita']);
-            return ($stament->execute()) ? header("Location:../index.php") : false;
+            return ($stament->execute()) ? header("Location:../admin.php") : false;
         }
 
         public function delete($id){
             $stament = $this->PDO->prepare("DELETE FROM usuario WHERE id = :id");
             $stament->bindParam(":id",$id);
-            return ($stament->execute()) ? header("Location:../index.php") : false;
+            return ($stament->execute()) ? header("Location:../admin.php") : false;
         }
     }
 

@@ -12,11 +12,13 @@ $pacientes = $usuario->index();
 
 
 <!-- Header - set the background image for the header in the line below-->
-<header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+<header class="py-5 bg-image-full"
+    style="background-image: url('https://www.anfix.com/hubfs/Imported_Blog_Media/31AGO_HistoriaContabilidad-3.jpg')">
     <div class="text-center my-5">
-        <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
-        <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
-        <p class="text-white-50 mb-0">Landing Page Template</p>
+        <h1 class="text-white fs-3 fw-bolder">Katy Gisela</h1>
+        <p class="text-black-50 mb-0">Contadora Publica
+
+        </p>
     </div>
 </header>
 <!-- Content section-->
@@ -24,18 +26,17 @@ $pacientes = $usuario->index();
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <h2>Full Width Backgrounds</h2>
-                <p class="lead">A single, lightweight helper class allows you to add engaging, full width background
-                    images to sections of your page.</p>
-                <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here
-                    on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the
-                    universe.</p>
+                <h2>Contadora Graduada de la universidad IBERO</h2>
+                <br>
+                <p class="lead">Soy una joven recien graduada de la universidad, en busca de experiencia,
+                    si necesitas mi ayuda te puedes contactar por medio de solicitar cita </p>
             </div>
         </div>
     </div>
 </section>
 <!-- Image element - set the background image for the header in the line below-->
-<div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+<div class="py-5 bg-image-full"
+    style="background-image: url('https://micarrerauniversitaria.com/wp-content/uploads/2018/02/0004_shutterstock_164852162.jpg')">
     <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
     <div style="height: 20rem"></div>
 </div>
@@ -44,12 +45,10 @@ $pacientes = $usuario->index();
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <h2>Engaging Background Images</h2>
-                <p class="lead">The background images used in this template are sourced from Unsplash and are open
-                    source and free to use.</p>
-                <p class="mb-0">I can't tell you how many people say they were turned off from science because of a
-                    science teacher that completely sucked out all the inspiration and enthusiasm they had for the
-                    course.</p>
+                <h2>Accountant Graduated from IBERO University</h2>
+                <p class="lead">
+                    I am a young woman who recently graduated from university, looking for experience,
+                    If you need my help you can contact me by solicitar cita</p>
             </div>
         </div>
     </div>
