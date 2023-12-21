@@ -3,7 +3,7 @@
         private $PDO;
         public function __construct()
         {
-            require_once("C:/xampp/htdocs/Actividad-4/config/ConectionBD.php");
+            require_once("C:/xampp/htdocs/Actividad-6/config/ConectionBD.php");
             $con = new db();
             $this->PDO = $con->conexion();
         }
