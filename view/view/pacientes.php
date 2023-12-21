@@ -1,6 +1,6 @@
 <?php
-include('view/head.php');
-include('model/usuarioModel.php');
+include('head.php');
+include('../model/usuarioModel.php');
 
 $usuario  =  new usuarioModel();
 
@@ -49,7 +49,3 @@ $pacientes = $usuario->index();
     </tbody>
 </table>  
 </div>
-<?php 
-require('view/footer.php');
-
-?>

@@ -1,5 +1,5 @@
 <?php
-include('head.php');
+include('adminNav.php');
 include('../model/usuarioModel.php');
 
    $usuarioObj = new usuarioModel();

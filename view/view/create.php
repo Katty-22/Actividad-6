@@ -1,5 +1,5 @@
 <?php
-include('head.php');
+include('adminNav.php');
 include('../model/usuarioModel.php');
 
 if(isset($_POST) && !empty($_POST)){
